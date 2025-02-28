@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#DA373D',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="h-screen w-full ">
+        <div
+            class="h-[15%] w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex justify-center items-center text-4xl font-[open Sans] font-semibold">
+            <h1 class="text-white ">Finace Tracker</h1>
+
+        </div>
+        <div class="h-[50%] w-full flex    ">
+            <div class="h-full w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  ">
+                <div class="h-full w-full px-16 flex flex-col  py-10 ">
+                    <div class="h-[20%] w-full ">
+                        <h1 class="text-white font-[open Sans] font-semibold pb-2 text-xl">Discription</h1>
+                        <input class="h-[80%] w-full rounded-md border " type="text">
+                    </div>
+                    <div h-[20%] w-full>
+                        <h1 class="text-white font-[open Sans] font-semibold  pt-10  text-xl  ">Amount</h1>
+                        <input class="h-[50%] w-full rounded-md border" type="text">
+                    </div>
+                    <div class=" flex justify-center w-full">
+                        <div
+                            class=" h-12 w-20 mt-12  bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300 flex items-center justify-center rounded-md">
+                            <button class="text-white font-[open Sans] font-semibold text-sm">Submite</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" w-full  h-[233px]   bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-14">
+            <div class="h-[20%] w-full flex justify-center">
+                <h1 class="text- font-[open Sans] font-semibold text-2xl ">Total Amount</h1>
+            </div>
+            <table class="  w-full   ">
+                <thead>
+                  <tr >
+                    <th class="border-[1px] border-black w-[30%]" >Descripton</th>
+                    <th class="border w-[30%] border-black">Amount</th>
+                    <th class="border w-[30%] border-black">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td  class="border w-[30%] border-black" >***</td>
+                    <td class="border w-[30%] border-black">***</td>
+                    <td class="border w-[30%] border-black">***</td>
+                  </tr>
+                  <tr>
+                    <td class="border w-[30%] border-black" >***</td>
+                    <td class="border w-[30%] border-black" >***</td>
+                    <td class="border w-[30%] border-black" >***</td>
+                  </tr>
+                  <tr>
+                    <td class="border w-[30%] border-black" >***</td>
+                    <td class="border w-[30%] border-black" >***</td>
+                    <td class="border w-[30%] border-black" >***</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <h1 class="font-semibold font-[open Sans]">Copy Right Action if You will go to jail</h1>
+              </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
